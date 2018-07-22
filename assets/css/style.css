@@ -1,0 +1,28 @@
+body{
+    background-color: #C7DAE1;
+    color: #8EA4AE;
+}
+h1{
+    color: #678793;
+}
+.fundoBranco{
+    background-color: #fff;
+}
+
+.espaco{
+    height: 60px;
+}
+
+/* para criar as polaroides dos produtos */
+.polaroid{
+    margin: 0 auto;
+    background-color: #fff;
+    width: 80%;
+    padding-bottom: 74px;
+    border: 8px solid #fff;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+/* ------ */
