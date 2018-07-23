@@ -76,7 +76,7 @@
             
         </div>
 
-        <div class="row">
+        <div class="row centralizar">
             <footer><small>rodape da pagina - 2018</small></footer>
         </div>
         

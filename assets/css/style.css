@@ -12,6 +12,9 @@ h1{
 .espaco{
     height: 60px;
 }
+.centralizar{
+    margin: 0 auto;
+}
 
 /* para criar as polaroides dos produtos */
 .polaroid{
