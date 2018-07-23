@@ -13,7 +13,7 @@ h1{
     height: 60px;
 }
 .centralizar{
-    margin: 0 auto;
+    text-align: center;
 }
 
 /* para criar as polaroides dos produtos */
