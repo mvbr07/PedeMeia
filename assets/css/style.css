@@ -31,3 +31,31 @@ h1{
     height: 100%;
 }
 /* ------ */
+
+.campoProduto{
+    -webkit-transition: transform .2s;
+    transition: transform .2s;
+  }
+
+.campoProduto:hover{
+  -webkit-animation: pulse .25s;
+  animation: pulse .25s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+}
+@keyframes pulse {
+    0%   {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    }
+    100% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    }
+}

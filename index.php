@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="pedeMeia centralizar"><h1>Pede Meia</h1></div>
-            <a class="navbar-brand logIn" href="#">Log in</a>
+            <a class="navbar-brand logIn" href="login.php">Log in</a>
         </div>        
         
         <?php
@@ -26,30 +26,42 @@
         </div>
         
         <div class="row">
-            
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="polaroid"><img class="img" src="assets/img/teste.jpeg" alt="teste"></div>    
+            <?php 
+                for($x=0; $x < 6; $x++){
+            ?>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 campoProduto">
+                <a class="" data-toggle="modal" href='#modal-id<?php echo $x?>'>
+                    <div class="polaroid"><img class="img" src="assets/img/teste.jpeg" alt="teste"></div> 
+                </a>   
             </div>
             
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="polaroid"><img class="img" src="assets/img/teste.jpeg" alt="teste"></div>    
+            <div class="modal fade" id="modal-id<?php echo $x?>">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h4 class="modal-title">teste</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <p>aaaaaaaaaaaaaaaaaaaa aaaaa aaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaa aaaaaaa aaaaaaaaa</p>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="number" name="quant" id="inputQuant<?php echo $x?>" class="form-control" value="" min="1" max="" step="" required="required" title="">   
+                            
+                            <button type="button" class="btn btn-default">Comprar</button>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="polaroid"><img class="img" src="assets/img/teste.jpeg" alt="teste"></div>    
-            </div>
-            
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="polaroid"><img class="img" src="assets/img/teste.jpeg" alt="teste"></div>    
-            </div>
-            
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="polaroid"><img class="img" src="assets/img/teste.jpeg" alt="teste"></div>    
-            </div>
-            
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div class="polaroid"><img class="img" src="assets/img/teste.jpeg" alt="teste"></div>    
-            </div>
+            <?php
+                }
+            ?>
 
         </div>
 
