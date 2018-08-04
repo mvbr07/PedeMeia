@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://mlstaticquic-a.akamaihd.net/tecido-estampa-escamas-amarelas-em-tricoline-100-algodo-D_NQ_NP_627371-MLB26612728483_012018-F.webp);
+    background-image: url("../img/fundo.jpg");
     background-repeat: repeat;
     color: rgb(0, 0, 0);
 }
@@ -8,6 +8,10 @@ h1{
 }
 .fundoBranco{
     background-color: #fff;
+}
+
+.cabecalho{
+    
 }
 
 .espaco{

@@ -12,12 +12,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="pedeMeia centralizar"><h1>Pede Meia</h1></div>
-            <a class="navbar-brand logIn" href="login.php">Log in</a>
-        </div>        
+        
         
         <?php
+            include "cabecalho.php";
             include "menu.php";
         ?>
 
